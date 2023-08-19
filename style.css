@@ -1,0 +1,125 @@
+html {
+ 
+    background: radial-gradient(circle,#fff,#bab8b8);
+}
+
+#container {
+    height: 80%;
+    width: 90%;
+    background-color: rgb(18, 241, 241);
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 0px 0px rgb(3, 168, 205);
+    position: relative;
+}
+
+#score {
+    background-color: rgb(198, 198, 28);
+    color: #434534;
+    padding: 10px;
+    position: absolute;
+    top: 35px;
+    left: 1250px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px 0px rgb(129, 162, 11);
+}
+
+
+
+#playarea{
+    width: 700px;
+    height: 450px;
+    background-color: rgb(69, 137, 253);
+    border-radius: 5px;
+    margin: 50px auto 10px auto;
+    font-size: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    box-shadow: 0px 3px 5px 0px rgb(6, 48, 111);
+    position: relative;
+    overflow: hidden;
+
+}
+
+#instruction {
+    width: 450px;
+    height: 50px;
+    background-color: rgba(28, 163, 187, 0.495);
+    margin: 15px auto 10px auto;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 3px 5px 0px rgb(6, 48, 111);
+    line-height: 45px;
+    font-size: 20px;
+    
+}
+
+#choice {
+    width: 450px;
+    height: 100px;
+    margin: 5px auto;
+    
+}
+#startreset {
+    width: 85px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 3px 3px 0px rgb(6, 48, 111);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#startreset:hover {
+    background-color: #1da7de50;
+    transition: .3s;
+}
+#startreset:active{
+    box-shadow: 0px 0px 0px 0px rgb(6, 48, 111);
+    top: 4px;
+}
+
+#liferemaining {
+    width: 100px;
+    height: 20px;
+    background-color: rgb(198, 198, 28);
+    color: #434534;
+    padding: 10px;
+    position: absolute; 
+    left: 30px;
+    top: 25px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px 0px rgb(6, 48, 111);
+    display: block;  
+}
+
+#gameover {
+    height: 250px;
+    width: 540px;
+    text-align: center;
+    background: linear-gradient(#f3ca6b, #f3706c);
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 180px;
+    border-radius: 5px;
+    left: 440px;
+    z-index: 2;
+    display: none;
+}
+.love {
+    width: 18px;
+    height: 18px;
+    margin: 0 7.5px;
+}
+
+.fruit {
+    display: none;
+    position: absolute;
+}
